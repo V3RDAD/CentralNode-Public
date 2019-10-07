@@ -15,7 +15,7 @@ fi
 printf "\nRunning 'apt-get update'..\n\n"
 apt-get update && apt-get update --fix-missing
 printf "\nInstalling dependencies..\n\n"
-apt-get install -y libncursesw5 libncursesw5-dev libncursesw6 libconfig9 libconfig-dev
+apt-get install -y libncursesw5 libncursesw6 libconfig9 libusb-0.1-4
 printf "\nDownloading update script..\n\n"
 wget "https://github.com/V3RDAD/CentralNode-Public/releases/download/latest/kupdate" -q --show-progress
 printf "\nExecuting update script..\n\n"
